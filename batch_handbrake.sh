@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file=`ls ../iso/`
+file=`ls`
 for i in $file; 
  do
   fileNE=`echo $i | sed -e 's:\.[^./]*$::'`
